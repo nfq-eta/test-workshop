@@ -7,6 +7,7 @@
     <services>
 
         <service id="tadcka_demo.controller.product" class="Tadcka\Bundle\DemoBundle\Controller\ProductController">
+            <argument type="service" id="router" />
             <argument type="service" id="templating" />
         </service>
 
