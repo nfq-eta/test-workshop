@@ -1,0 +1,3 @@
+tadcka_demo:
+    resource: "@TadckaDemoBundle/Resources/config/routing.xml"
+    prefix:   /
