@@ -1,0 +1,14 @@
+<products>
+    <product>
+        <sku>111111111</sku>
+        <name>Pirmas</name>
+    </product>
+    <product>
+        <sku>222222222</sku>
+        <name>Antras</name>
+    </product>
+    <product>
+        <sku>333333333</sku>
+        <name>Trečias</name>
+    </product>
+</products>
