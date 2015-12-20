@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Tadcka\Bundle\DemoBundle\Tests\Unit;
+namespace Tadcka\Bundle\DemoBundle\Tests\Unit\Reader;
 
 use PHPUnit_Framework_TestCase as TestCase;
 use Tadcka\Bundle\DemoBundle\Reader\XmlProductReader;
@@ -23,7 +23,7 @@ class XmlProductReaderTest extends TestCase
 {
     public function testRead_v1()
     {
-        $reader = new XmlProductReader(__DIR__ . '/../MockFiles/product-v1.xml');
+        $reader = new XmlProductReader(__DIR__ . '/../../MockFiles/product-v1.xml');
 
         $products = $reader->read();
 
