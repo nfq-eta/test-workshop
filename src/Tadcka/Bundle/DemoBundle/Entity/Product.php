@@ -63,18 +63,6 @@ class Product
     }
 
     /**
-     * @param string $sku
-     *
-     * @return Product
-     */
-    public function setSku($sku)
-    {
-        $this->sku = $sku;
-
-        return $this;
-    }
-
-    /**
      * @return string
      */
     public function getSku()
@@ -88,5 +76,17 @@ class Product
     public function getName()
     {
         return $this->name;
+    }
+
+    /**
+     * @param string $name
+     *
+     * @return Product
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+
+        return $this;
     }
 }
