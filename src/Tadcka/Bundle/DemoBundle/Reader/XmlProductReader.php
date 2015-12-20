@@ -76,4 +76,3 @@ class XmlProductReader
         return (\XMLReader::ELEMENT === $this->xml->nodeType) && ('product' === $this->xml->name);
     }
 }
- 

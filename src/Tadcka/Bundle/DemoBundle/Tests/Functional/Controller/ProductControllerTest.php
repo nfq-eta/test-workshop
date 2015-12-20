@@ -44,10 +44,9 @@ class ProductControllerTest extends WebTestCase
 
     public function testOldIndexAction()
     {
-        $crawler = $this->client->request('GET', '/products');
+        $this->client->request('GET', '/products');
 
         $this->assertEquals(301, $this->client->getResponse()->getStatusCode());
         $this->assertGreaterThan(new \DateTime(), new \DateTime('2015-12-21 18:30:00'));
     }
 }
- 

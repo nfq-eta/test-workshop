@@ -45,8 +45,7 @@ class ProductRepositoryTest extends KernelTestCase
     {
         $products = $this->em
             ->getRepository('TadckaDemoBundle:Product')
-            ->searchByName('foo')
-        ;
+            ->searchByName('foo');
 
         $this->assertCount(1, $products);
     }
@@ -61,4 +60,3 @@ class ProductRepositoryTest extends KernelTestCase
         $this->em->close();
     }
 }
- 

@@ -54,4 +54,3 @@ class ProductController
         return new RedirectResponse($this->router->generate('tadcka_demo_product_old_index'), 301);
     }
 }
- 

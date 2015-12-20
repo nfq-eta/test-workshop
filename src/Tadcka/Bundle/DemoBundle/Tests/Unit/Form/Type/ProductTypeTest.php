@@ -45,9 +45,13 @@ class ProductTypeTest extends TypeTestCase
         }
     }
 
+    /**
+     * @param string $sku
+     *
+     * @return Product
+     */
     private function createProduct($sku = 'test')
     {
         return new Product($sku);
     }
 }
- 

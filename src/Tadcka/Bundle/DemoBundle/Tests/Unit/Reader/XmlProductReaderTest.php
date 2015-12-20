@@ -39,4 +39,3 @@ class XmlProductReaderTest extends TestCase
         $this->assertEquals('Trečias', $products[2]['name']);
     }
 }
- 
